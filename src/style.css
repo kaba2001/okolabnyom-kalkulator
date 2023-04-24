@@ -1,0 +1,115 @@
+:root {
+    --main_kek: #013870;
+    --main_zold: #01E08F;  
+}
+
+.bg-sotetkek {
+    background-color: var(--main_kek) !important;
+}
+
+.bg-main-zold {
+    background-color: var(--main_zold) !important;
+}
+
+#felulet{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    text-align: justify;
+
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto; 
+
+    font-size: 120%;
+}
+#felulet h3{
+    font-weight: bold;
+}
+
+.fooldal{
+    color:black
+    
+}
+
+.navbar-szoveg{
+    color: rgba(255, 255, 255, 0.55);
+}
+
+
+
+/*Linkek formázása*/
+
+.nav-link-sajat-feher {
+    display: block;
+    padding: 0.5rem 1rem;
+    padding-right: 0;
+    color: #ECF6DE;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.nav-link-sajat-feher:hover, .nav-link-sajat-feher:focus {
+    color: #cae8a0;
+}
+.nav-link-sajat-feher.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.nav-link-sajat-zold {
+    display: block;
+    padding: 0.5rem 1rem;
+    padding-right: 0;
+    color: #00D785;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.nav-link-sajat-zold:hover, .nav-link-sajat-zold:focus {
+    color: #07a76a;
+}
+.nav-link-sajat-zold.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+/*Gomb*/
+
+
+.btn-sajat {
+    color: var(--main_kek);
+    border-color: var(--main_kek);
+    border-radius: 18px;
+    border-width: 5px;
+    font-size: 40px;
+    font-variant:small-caps;
+    font-weight: bold;
+    padding-top: 0px;
+    padding-bottom: 9px;
+    padding-left: 25px;
+    padding-right: 25px;    
+}
+.btn-sajat:hover {
+    color: var(--main_zold);
+    background-color: var(--main_kek);
+    border-color: var(--main_kek);
+}
+
+.btn-sajat:disabled, .btn-sajat.disabled {
+    color: var(--main_kek);
+    background-color: transparent;
+}
+
+
+
+
+/*---------------*/
+
+.kerekito{
+    
+    border-radius: 10px;
+    overflow:hidden;
+}
+
+
+/*---KÉP---*/

@@ -1,0 +1,35 @@
+:root {
+  --ev_valaszto_hatter: #631D76;
+  --ev_valaszto_betu:white;
+
+    --etel_atmenet1:#25102b;
+    --etel_atmenet2: #510466;
+
+
+}
+
+.lehetosegek input[type="radio"] {
+  display: none;
+
+}
+.ev_valto:hover{
+  filter: brightness(150%);
+  cursor: pointer;
+}
+
+
+.kijelolt .ev_valto{
+  background-color: var(--etel_hatter);
+  color: var(--etel_betu);
+  border-color: var(--etel_betu);
+}
+
+.kijelolt .ev_valto.egy_opcio{
+  background: linear-gradient(135deg, var(--etel_atmenet1), var(--etel_atmenet2));
+}
+
+.jeloletlen .ev_valto{
+  background-color: var(--etel_betu);
+  color: var(--etel_hatter);
+  border-color: var(--etel_betu);
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "orszag": "USA",
+        "atlag": 16.6,
+        "szin" : "#0A3161"
+    },
+    {
+        "orszag": "Kína",
+        "atlag": 18.1,
+        "szin" : "#DE2910"
+    },
+    {
+        "orszag": "Magyar",
+        "atlag": 14.7,
+        "szin" : "#477050"
+    }
+]

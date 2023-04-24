@@ -1,0 +1,51 @@
+[
+    {
+        "kerdes": "Egy <b>héten</b> mennyi <b>kilométer</b>t közlekedik <b>autó</b>val?",
+        "valaszok": ["0 km","1-10 km","11-30 km","31-60 km","61-90 km","91-150 km","150-250 km","250 km+"],
+        "CO2ertek": [0,1,3,6,9,15,25,32],
+        "tipus": "kozlekedes",
+        "ID_u":1,
+        "ID":11
+    },
+    {
+        "kerdes": "Egy <b>héten</b> mennyi <b>kilométer</b>t közlekedik <b>motorral, vagy segédmotoros kerékpárral</b>?",
+        "valaszok": ["0 km","1-10 km","11-30 km","31-60 km","61-90 km","91-150 km","150-250 km","250 km+"],
+        "CO2ertek": [0,0.5,1.5,3,4.5,7.5,12.5,16],
+        "tipus": "kozlekedes",
+        "ID_u":2,
+        "ID":12
+    },
+    {
+        "kerdes": "Közlekedésének <b>hány százalék</b>át váltja ki <b>elektromos jármű</b>vekkel?",
+        "valaszok": ["0%","0-20%","21-40%","41-60%","61-80%","81-100%"],
+        "CO2ertek": ["*1","*0.8","*0.6","*0.4","*0.2","*0"],
+        "tipus": "kozlekedes",
+        "ID_u":3,
+        "ID":13
+    },
+
+    {
+        "kerdes": "Egy <b>héten</b> (vonatot leszámítva) mennyi időt tölt <b>közösségi közlekedés</b>i eszközön?",
+        "valaszok": ["0 óra","1-5 óra","6-10 óra","10-15 óra","16-20 óra","21-25 óra","26-30 óra","30+ óra"],
+        "CO2ertek": [0,1,2,3,4,5,6,9],
+        "tipus":"kozlekedes",
+        "ID_u":4,
+        "ID":14
+    },
+    {
+        "kerdes": "Egy <b>héten</b> mennyi órát tölt <b>vonaton</b>?",
+        "valaszok": ["0 óra","1 - 5 óra","6 - 10 óra","10 - 15 óra","16 - 20 óra","21 - 25 óra","26 - 30 óra","30+ óra"],
+        "CO2ertek": [0,0.5,1,1.5,2,2.5,3,4.5],
+        "tipus":"kozlekedes",
+        "ID_u":5,
+        "ID":15
+    },
+    {
+        "kerdes": "Egy <b>évben</b> átlagos mennyi órát ül <b>repülőn</b>?",
+        "valaszok": ["0 óra","1 - 5 óra","6 - 10 óra","10 - 15 óra","16 - 20 óra","21 - 25 óra","26 - 30 óra","30+ óra"],
+        "CO2ertek": [0,1,2,3,4,5,6,8],
+        "tipus":"kozlekedes",
+        "ID_u":6,
+        "ID":16
+    }
+]

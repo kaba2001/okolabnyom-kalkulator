@@ -1,0 +1,18 @@
+[
+    {
+        "kerdes": "Átlagosan egy <b>hónapban</b> mennyi <b>ruhadarabot</b> vásárol?",
+        "valaszok": ["0 db","1-5 db","5-10 db","10-15 db","15-20 db","20+ db"],
+        "tipus": "vasarlas",
+        "CO2ertek":[0,0.28,0.75,1.13,1.69,2.16],
+        "ID_v":1,
+        "ID":5
+    },
+    {
+        "kerdes": "Átlagosan egy <b>hónapban</b> hány darab <b>háztartási gépet</b>, elektronikai cikket vásárol?",
+        "valaszok": ["0 db","1-2 db","3 db","4 db","5-6 db","6+ db"],
+        "tipus": "vasarlas",
+        "CO2ertek":[0,0.6,1.2,1.8,2.4,3.2],
+        "ID_v":2,
+        "ID":6
+    }
+]

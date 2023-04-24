@@ -1,0 +1,242 @@
+:root {
+  --etel_hatter: #631D76;
+  --etel_betu:white;
+
+    --etel_atmenet1:#76268d;
+    --etel_atmenet2: #541665;
+
+  --vasarlas_hatter: #9E4770;
+  --vasarlas_betu:white;
+
+    --vasarlas_atmenet1:#b45983;
+    --vasarlas_atmenet2:#8a3b60;
+
+  --otthon_hatter: #FBFBFB;
+  --otthon_betu:black;
+
+    --otthon_atmenet1:#ffefef;
+    --otthon_atmenet2:#cacaca;
+
+  --kozlekedes_hatter: #2E2532;
+  --kozlekedes_betu:white;
+
+    --kozlekedes_atmenet1:#443948;
+    --kozlekedes_atmenet2:#1b141e;
+
+/*-------------------------------*/
+
+  --bej_hatter: black;
+  --bej_betu:white;
+
+  --reg_hatter:white;
+  --reg_betu:black;
+
+
+}
+
+.kerdoiv label:hover{
+  filter: brightness(150%);
+  cursor: pointer;
+}
+
+
+
+/*felső 4 opció*/
+.middle {
+  width: 100%;
+  text-align: center;
+}
+
+.middle input[type="radio"] {
+  display: none;
+}
+.middle input[type="radio"]:checked + .box {
+  /*background-color: #11811ee3; - felső kiválasztás ellenőrzéséhez*/
+}
+
+.middle{
+  font-size: large;
+  font-weight: bolder;
+}
+
+
+
+/*Alap*/
+.kerdes_box input[type="radio"] {
+  display: none;
+  
+}
+
+
+/*Étel*/
+
+.etel{
+  background-color: var(--etel_hatter);
+  color: var(--etel_betu);
+  border-color: var(--etel_betu);
+}
+
+.etel.egy_opcio{
+  background: linear-gradient(135deg, var(--etel_atmenet1), var(--etel_atmenet2));
+}
+
+.etel input[type="radio"]:checked + .also_box{
+  background-color: var(--etel_betu);
+  color: var(--etel_hatter);
+  border-color: var(--etel_betu);
+}
+
+/*Vasarlas*/
+
+.vasarlas{
+  background-color: var(--vasarlas_hatter);
+  color: var(--vasarlas_betu);
+  border-color: var(--vasarlas_betu);
+
+}
+
+.vasarlas.egy_opcio{
+  background: linear-gradient(135deg, var(--vasarlas_atmenet1), var(--vasarlas_atmenet2));
+}
+
+.vasarlas input[type="radio"]:checked + .also_box{
+  background-color: var(--vasarlas_betu);
+  color: var(--vasarlas_hatter);
+  border-color: var(--vasarlas_betu);
+
+}
+/*Otthon*/
+
+.otthon{
+  background-color: var(--otthon_hatter);
+  color: var(--otthon_betu);
+  border-color: var(--otthon_betu);
+}
+
+.otthon.egy_opcio{
+  background: linear-gradient(135deg, var(--otthon_atmenet1), var(--otthon_atmenet2));
+}
+
+.otthon input[type="radio"]:checked + .also_box{
+  background-color: var(--otthon_betu);
+  color: var(--otthon_hatter);
+  border-color: var(--otthon_betu);
+
+}
+
+
+/*Közlekedés*/
+
+.kozlekedes{
+  background-color: var(--kozlekedes_hatter);
+  color: var(--kozlekedes_betu);
+  border-color: var(--kozlekedes_betu);
+
+}
+
+.kozlekedes.egy_opcio{
+  background: linear-gradient(135deg, var(--kozlekedes_atmenet1), var(--kozlekedes_atmenet2));
+}
+
+.kozlekedes input[type="radio"]:checked + .also_box{
+  background-color: var(--kozlekedes_betu);
+  color: var(--kozlekedes_hatter);
+  border-color: var(--kozlekedes_betu);
+
+}
+/*bej reg-alap*/
+.bemeno_doboz{
+  padding: 3px;
+  padding-left: 15px;
+  border-radius: 15px;
+  width: 100%;
+}
+
+/*bejelentkezes*/
+
+.bej{
+  background-color: var(--bej_hatter);
+  color: var(--bej_betu);
+  border-color: var(--bej_betu);
+}
+
+.bej .bemeno_doboz{
+  background-color: var(--bej_hatter);
+  color: var(--bej_betu);
+  border-color: var(--bej_betu);
+}
+
+.bej input[type="radio"]:checked + .also_box{
+  background-color: var(--bej_betu);
+  color: var(--bej_hatter);
+  border-color: var(--bej_betu);
+}
+
+
+/*regisztracio*/
+
+.reg{
+  background-color: var(--reg_hatter);
+  color: var(--reg_betu);
+  border-color: var(--reg_betu);
+}
+
+.reg .bemeno_doboz{
+  background-color: var(--reg_hatter);
+  color: var(--reg_betu);
+  border-color: var(--reg_betu);
+}
+
+.reg input[type="radio"]:checked + .also_box{
+  background-color: var(--reg_betu);
+  color: var(--reg_hatter);
+  border-color: var(--reg_betu);
+}
+
+
+/*Egyéb*/
+
+.also_box{
+  
+  border-left: 2px solid;
+  border-top:2px solid;
+  border-bottom:2px solid;
+}
+.border-bal-0{
+  border-left: 0px solid;
+}
+
+.btn-bekuldo{
+  border:solid;
+  font-variant:small-caps;
+  font-weight: bold;
+  border-radius: 13px;
+  border-width: 2px;
+  padding: 5px;
+}
+
+
+/* Tooltip text */
+.bekuldo_div .tooltiptext {
+  opacity: 0.5;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.bekuldo_div:hover .tooltiptext {
+  visibility: visible;
+}
+
+/*bej_reg bemeno adat*/
+
+
